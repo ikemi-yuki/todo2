@@ -5,7 +5,18 @@
 .header__inner {
     max-width: 1230px;
     padding: 20px 15px;
+    margin: 0 auto;
+}
 
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: #fff;
 }
 
 .header__logo {
